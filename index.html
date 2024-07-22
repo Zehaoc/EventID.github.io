@@ -258,31 +258,13 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            We present the first method capable of photorealistically reconstructing a non-rigidly
-            deforming scene using photos/videos captured casually from mobile phones.
-          </p>
-          <p>
-            Our approach augments neural radiance fields
-            (NeRF) by optimizing an
-            additional continuous volumetric deformation field that warps each observed point into a
-            canonical 5D NeRF.
-            We observe that these NeRF-like deformation fields are prone to local minima, and
-            propose a coarse-to-fine optimization method for coordinate-based models that allows for
-            more robust optimization.
-            By adapting principles from geometry processing and physical simulation to NeRF-like
-            models, we propose an elastic regularization of the deformation field that further
-            improves robustness.
-          </p>
-          <p>
-            We show that <span class="dnerf">Nerfies</span> can turn casually captured selfie
-            photos/videos into deformable NeRF
-            models that allow for photorealistic renderings of the subject from arbitrary
-            viewpoints, which we dub <i>"nerfies"</i>. We evaluate our method by collecting data
-            using a
-            rig with two mobile phones that take time-synchronized photos, yielding train/validation
-            images of the same pose at different viewpoints. We show that our method faithfully
-            reconstructs non-rigidly deforming scenes and reproduces unseen views with high
-            fidelity.
+            Reconstructing 3D scenes from multi-view images is challenging, especially in adverse conditions. 
+            We propose a novel event-based intrinsic decomposition framework that leverages events and images for stable decomposition under extreme scenarios. 
+            Our method is based on two observations: event cameras maintain good imaging quality, and events from different viewpoints exhibit similarity in diffuse regions while varying in specular regions. 
+            We establish an event-based reflectance model and introduce an event-based warping method to extract specular clues. 
+            Our two-part framework constructs a radiance field and decomposes the scene into normal, material, and lighting. 
+            Experimental results demonstrate superior performance compared to state-of-the-art methods. 
+            Our contributions include an event-based reflectance model, event warping-based consistency learning, and a framework for event-based intrinsic decomposition.
           </p>
         </div>
       </div>
