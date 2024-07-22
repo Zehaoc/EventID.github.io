@@ -1,6 +1,6 @@
-# Event-ID
+# Event-ID: Intrinsic Decomposition Using an Event Camera
 
-This is the repository that contains source code for the [Event-ID website](https://zehaoc.github.io/EventID.github.io/).
+[Event-ID website](https://zehaoc.github.io/EventID.github.io/).
 
 If you find Event-ID useful for your work please cite:
 ```
