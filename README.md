@@ -1,8 +1,8 @@
 # Event-ID
 
-This is the repository that contains source code for the [Nerfies website](https://zehaoc.github.io/EventID.github.io/).
+This is the repository that contains source code for the [Event-ID website](https://zehaoc.github.io/EventID.github.io/).
 
-If you find Nerfies useful for your work please cite:
+If you find Event-ID useful for your work please cite:
 ```
 
 ```
